@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "luoschenfeng"
+  name: "amosWzl"
   text: "blog\nrecord my study"
   tagline: 1 + 2 + 3 + 4 + .... + N = -1/12
   image:

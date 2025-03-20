@@ -4,7 +4,7 @@ import { nav,sidebar } from './router'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: './src',
-  title: "luoschenfeng blog",
+  title: "amosWzl blog",
   description: "record my study",
   cleanUrls: true,
   base: '/blog/',
@@ -35,13 +35,13 @@ export default defineConfig({
     nav: nav,
     sidebar: sidebar,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/luoschenfeng/blog' }
+      { icon: 'github', link: 'https://github.com/amosWzl/blog' }
     ],
     search: {
       provider: 'local'
     },
     editLink: {
-      pattern: 'https://github.com/luoschenfeng/blog/edit/main/src/:path',
+      pattern: 'https://github.com/amosWzl/blog/edit/main/src/:path',
       text: 'Edit this page on GitHub'
     }
   },
