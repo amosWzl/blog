@@ -34,3 +34,6 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v1
+      - name: Clean build
+        run: rm -rf node_modules dist
+
