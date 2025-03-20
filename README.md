@@ -1,2 +1,1 @@
 # blog
- amos测试
