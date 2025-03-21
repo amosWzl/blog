@@ -34,5 +34,3 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v2  # 必须使用v2版本‌:ml-citation{ref="5,7" data="citationList"}
-        with:
-          target-branch: gh-pages
