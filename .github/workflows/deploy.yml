@@ -34,3 +34,6 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v2  # 必须使用v2版本‌:ml-citation{ref="5,7" data="citationList"}
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # 默认 Token（需 pages:write 权限）
+          target_branch: main
